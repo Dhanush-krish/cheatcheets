@@ -36,3 +36,7 @@ docker volume prune
 ```
 docker volume rm
 ```
+### build and tag image from different file
+```
+docker build -f api.Dockerfile . -t api:latest
+```
