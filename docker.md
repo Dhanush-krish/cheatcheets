@@ -1,10 +1,30 @@
-### Docker version
+### Docker client and server version
 ```
 docker version
+```
+### Docker client version
+```
+docker -v
 ```
 ### Information about the docker service
 ```
 docker info
+```
+### Streams logs from docker daemon
+```
+docker system events
+```
+### Pull and run image
+```
+docker container run <image> <command>
+```
+### Interacting with Containers
+```
+docker container run -it <image> <command> 
+```
+### Containers with detach mode
+```
+docker container -d <image> <command>
 ```
 ### List running containers
 ```
