@@ -1,6 +1,6 @@
 ### Docker version
 ```
-docker --version
+docker version
 ```
 ### Information about the docker service
 ```
