@@ -86,6 +86,16 @@ docker exec -it <container id/name> <shell>
 docker image <image id / name>
 ```
 
+#### Build image from docker file
+```
+docker build -t app:v1 -f Dockerfile.app .
+```
+
+#### Build specific stage in multistage build
+```
+docker build -t app:v1 --target build -f Dockerfile.app .
+```
+
 #### Lists all the images
 ```
 docker images
