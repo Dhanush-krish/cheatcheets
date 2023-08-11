@@ -1,3 +1,8 @@
+### compose file syntax check
+```
+docker-compose config 
+```
+
 ### build  and rebuild services
 ```
 docker compose build
