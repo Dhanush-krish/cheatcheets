@@ -11,9 +11,13 @@ docker compose build
 ```
 docker compose build --no-cache
 ```
-### create and start containers
+### create and start all services
 ```
 docker compose up
+```
+### create and start particular container
+```
+docker compose up <service name>
 ```
 ###  updated  compose file
 ```
