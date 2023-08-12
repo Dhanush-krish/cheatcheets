@@ -24,6 +24,12 @@ kubectl apply -f nginx-deploymet.yml
 ```
 kubectl get <resource type>
 ```
+
+### Troubleshooting pods
+#### view pod events and specs
+```
+kubectl describe pod <pod name>
+```
 #### show pod logs
 ```
 kubectl logs -f <pod name>
