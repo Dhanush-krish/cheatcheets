@@ -30,7 +30,7 @@ kubectl get <resource type>
 ```
 kubectl describe pod <pod name>
 ```
-#### show pod logs
+#### show container logs [single container]
 ```
 kubectl logs -f <pod name>
 ```
