@@ -32,5 +32,8 @@ kubectl logs -f <pod name>
 ```
 kubectl logs -f <pod name> -c <container name>
 ```
-
+#### list pods with IP and node details
+```
+kubectl get pods -o wide
+```
 
