@@ -28,6 +28,10 @@ kubectl get <resource type>
 ```
 kubectl logs -f <pod name>
 ```
+#### getting into the pod
+```
+kubectl exec -it  <pod name> -- <command>
+```
 #### show specific container log
 ```
 kubectl logs -f <pod name> -c <container name>
